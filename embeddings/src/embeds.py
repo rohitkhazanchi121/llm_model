@@ -7,6 +7,8 @@ from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import psycopg
 
+## a new pr is added
+
 PG_HOST = 'psql-da-chatbot.postgres.database.azure.com'
 PG_DBNAME = 'postgres'
 PG_USERNAME = 'postgresadmin'
