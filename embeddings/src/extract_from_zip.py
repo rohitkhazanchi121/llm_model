@@ -3,7 +3,7 @@ import os
 from bs4 import BeautifulSoup
 import pandas as pd
 def clean_html(text):
-    """Remove HTML tags using BeautifulSoup"""
+    """Remove HTML tags using BeautifulSoup test"""
     return BeautifulSoup(text, "html.parser").get_text()
 
 def get_url_of_page(row):
